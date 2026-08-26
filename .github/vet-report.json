@@ -1,0 +1,46 @@
+{
+  "gate": "pass",
+  "license": {
+    "declared": "MIT",
+    "detected": [
+      "MIT"
+    ],
+    "license_files": [
+      "//tmp/tmp.Ao46u3OHY5/x/LICENSE"
+    ],
+    "matches": true,
+    "status": "pass",
+    "detail": "declared MIT matches detected MIT"
+  },
+  "asset": {
+    "format": "tar.gz",
+    "size": 6267578,
+    "valid": true,
+    "is_html": false,
+    "binary": "scc",
+    "elf_arch": "ARM aarch64",
+    "status": "pass",
+    "detail": "valid tar.gz archive containing 1 ELF executable(s); first: scc (ARM aarch64); release covers: amd64 arm64 i386 "
+  },
+  "architectures": {
+    "covered": [
+      "amd64",
+      "arm64",
+      "i386"
+    ],
+    "missing": [
+      "armel",
+      "armhf",
+      "ppc64el",
+      "s390x",
+      "riscv64",
+      "loong64"
+    ],
+    "assets": {
+      "amd64": "scc_Linux_x86_64.tar.gz",
+      "arm64": "scc_Linux_arm64.tar.gz",
+      "i386": "scc_Linux_i386.tar.gz"
+    }
+  },
+  "vetted_at": "2026-08-26T04:33:35Z"
+}

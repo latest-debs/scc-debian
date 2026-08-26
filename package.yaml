@@ -1,0 +1,9 @@
+# Package definition for scc
+
+package_name: scc
+github_repo: boyter/scc
+artifact_format: tar.gz
+description: "Sloc, Cloc and Code: scc is a very fast accurate code counter with complexity calculations and COCOMO estimates written in pure Go"
+license: MIT
+
+# Build for all Debian suites and all supported architectures.
